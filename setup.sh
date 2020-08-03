@@ -1,5 +1,5 @@
 #!/bin/bash
-mv . .. -R
+cp -r . .. 
 #rm -rf dotfiles
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 #mkdir tmp
